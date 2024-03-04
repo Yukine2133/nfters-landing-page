@@ -8,10 +8,36 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+      },
+      colors: {
+        purple: {
+          "1": "#3D00B7",
+          "2": "#3D00B7",
+          "3": "#220970",
+          "4": "#4F33A3",
+        },
+
+        gray: {
+          "1": "#220970",
+          "2": "#3A3A3A",
+          "3": "#565656",
+          "4": "#757575",
+          "5": "#696969",
+          "6": "#636363",
+          "7": "#363639",
+          "8": "#DCDCDC",
+          "9": "#A4A4A4",
+          "10": "#C0C0C0",
+        },
+        green: {
+          "1": "#00AC4F",
+          "2": "#14C8B0",
+        },
+        red: "#FF002E",
+        blue: "#2639ED",
       },
     },
   },
