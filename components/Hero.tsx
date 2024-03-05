@@ -4,7 +4,7 @@ import { hero } from "@/constants";
 
 const Hero = () => {
   return (
-    <main className="flex mt-14 flex-col lg:flex-row justify-center items-center ">
+    <main className="flex mt-14 flex-col lg:flex-row justify-center mx-4 items-center ">
       <section className=" grid place-items-center text-center lg:place-items-start lg:text-start ">
         <h1 className="font-montserrat font-bold text-[34px] w-full  md:text-[40px] mx-4  md:w-[60%] lg:w-full xl:w-[80%] 2xl:w-[60%] mb-5">
           Discover, and collect digital arts ntfs

@@ -23,7 +23,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`${px || "px-10"} ${py || "py-5"} bg-${bg} ${
+      className={`${px || "px-10"} ${py || "py-5"} bg-${bg}  ${
         weight ? `font-${weight}` : "font-normal"
       } ${font ? `font-${font}` : ""}  ${className} ${
         size ? `text-${size}` : ""

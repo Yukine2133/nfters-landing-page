@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         purple: {
