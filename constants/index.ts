@@ -91,3 +91,60 @@ export const topCollectionsOver = [
     isGreen: false,
   },
 ];
+
+export const collectionFeatured = [
+  {
+    id: 1,
+    image: "/collection-featured/1/1.svg",
+    images: [
+      {
+        id: 2,
+        path: "/collection-featured/1/2.svg",
+      },
+      {
+        id: 3,
+        path: "/collection-featured/1/3.svg",
+      },
+      {
+        id: 4,
+        path: "/collection-featured/1/4.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    image: "/collection-featured/2/1.svg",
+    images: [
+      {
+        id: 2,
+        path: "/collection-featured/2/2.svg",
+      },
+      {
+        id: 3,
+        path: "/collection-featured/2/3.svg",
+      },
+      {
+        id: 4,
+        path: "/collection-featured/2/4.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    image: "/collection-featured/3/1.svg",
+    images: [
+      {
+        id: 2,
+        path: "/collection-featured/3/2.svg",
+      },
+      {
+        id: 3,
+        path: "/collection-featured/3/3.svg",
+      },
+      {
+        id: 4,
+        path: "/collection-featured/3/4.svg",
+      },
+    ],
+  },
+];

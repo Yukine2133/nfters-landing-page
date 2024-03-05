@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Amaze = () => {
   return (
-    <div className="bg-[#D9E0EC] bg-opacity-20 flex flex-col lg:flex-row justify-around items-center h-fit py-4 w-full mx-4  lg:h-80">
+    <div className="bg-[#D9E0EC] bg-opacity-20 flex flex-col lg:flex-row justify-around items-center h-fit py-4 w-full  lg:h-80">
       <h2 className="font-montserrat w font-bold text-[1.750rem]">
         The amazing NFT art of <br /> the world here
       </h2>
