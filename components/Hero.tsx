@@ -13,7 +13,7 @@ const Hero = () => {
           Digital marketplace for crypto collectibles and non-fungible tokens
           (NFTs). Buy, Sell, and discover exclusive digital assets.
         </p>
-        <Button text="Explore Now" bg="purple-1" size="lg" />
+        <Button text="Explore Now" className="bg-purple-1" size="lg" />
         <div className="flex items-center gap-9 mt-8 mx-4">
           {hero.map((item) => (
             <div key={item.id}>

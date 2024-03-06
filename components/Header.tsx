@@ -23,7 +23,7 @@ const Header = () => {
             text="Upload"
             weight="bold"
             size="sm"
-            bg="purple-1"
+            className="bg-purple-1"
             py="py-[18px]"
           />
           <Button

@@ -68,7 +68,7 @@ const CollectionOver = () => {
               </div>
               {item.buttonPurple ? (
                 <Button
-                  bg="purple-1"
+                  className="bg-purple-1"
                   text="Place a bid"
                   size="sm"
                   py="py-[14px]"

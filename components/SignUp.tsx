@@ -51,7 +51,12 @@ const SignUp = () => {
           dictum sit tristique sed non. Lacinia lorem id consectetur pretium
           diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
         </p>
-        <Button text="Sign Up Now" bg="purple-1" font="montserrat" size="lg" />
+        <Button
+          text="Sign Up Now"
+          className="bg-purple-1"
+          font="montserrat"
+          size="lg"
+        />
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ interface ButtonProps {
   text: string;
   px?: string;
   py?: string;
-  bg?: string;
+
   weight?: string;
   font?: string;
   size?: string;
@@ -15,7 +15,7 @@ const Button = ({
   text,
   px,
   py,
-  bg,
+
   weight,
   font,
   size,
@@ -23,7 +23,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`${px || "px-10"} ${py || "py-5"} bg-${bg}  ${
+      className={`${px || "px-10"} ${py || "py-5"}   ${
         weight ? `font-${weight}` : "font-normal"
       } ${font ? `font-${font}` : ""}  ${className} ${
         size ? `text-${size}` : ""

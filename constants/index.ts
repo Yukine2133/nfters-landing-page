@@ -148,3 +148,127 @@ export const collectionFeatured = [
     ],
   },
 ];
+
+export const discoverButtons = [
+  {
+    id: 1,
+    text: "All Categories",
+    buttonPurple: true,
+  },
+  {
+    id: 2,
+    text: "Art",
+    buttonPurple: false,
+  },
+  {
+    id: 3,
+    text: "Celebrities",
+    buttonPurple: false,
+  },
+  {
+    id: 4,
+    text: "Gaming",
+    buttonPurple: false,
+  },
+  {
+    id: 5,
+    text: "Sport",
+    buttonPurple: false,
+  },
+  {
+    id: 6,
+    text: "Music",
+    buttonPurple: false,
+  },
+  {
+    id: 7,
+    text: "Crypto",
+    buttonPurple: false,
+  },
+];
+export const discoverNFTs = [
+  {
+    id: 1,
+    image: "/discover/1.svg",
+  },
+  {
+    id: 2,
+    image: "/discover/2.svg",
+  },
+  {
+    id: 3,
+    image: "/discover/3.svg",
+  },
+  {
+    id: 4,
+    image: "/discover/4.svg",
+  },
+  {
+    id: 5,
+    image: "/discover/4.svg",
+  },
+  {
+    id: 6,
+    image: "/discover/3.svg",
+  },
+  {
+    id: 7,
+    image: "/discover/1.svg",
+  },
+  {
+    id: 8,
+    image: "/discover/2.svg",
+  },
+  {
+    id: 9,
+    image: "/discover/1.svg",
+  },
+  {
+    id: 10,
+    image: "/discover/4.svg",
+  },
+  {
+    id: 11,
+    image: "/discover/2.svg",
+  },
+  {
+    id: 12,
+    image: "/discover/3.svg",
+  },
+
+  {
+    id: 13,
+    image: "/discover/3.svg",
+  },
+  {
+    id: 14,
+    image: "/discover/2.svg",
+  },
+  {
+    id: 15,
+    image: "/discover/1.svg",
+  },
+  {
+    id: 16,
+    image: "/discover/4.svg",
+  },
+];
+
+export const discoverPeople = [
+  {
+    id: 1,
+    image: "/discover/person-1.svg",
+  },
+  {
+    id: 2,
+    image: "/discover/person-2.svg",
+  },
+  {
+    id: 3,
+    image: "/discover/person-3.svg",
+  },
+  {
+    id: 4,
+    image: "/discover/person-4.svg",
+  },
+];
