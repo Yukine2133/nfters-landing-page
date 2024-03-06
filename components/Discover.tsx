@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Discover = () => {
   return (
-    <div className="bg-[#D9E0EC] mt-20 pt-16 bg-opacity-20 w-full">
-      <div className="lg:px-[7.5rem] px-4   mb-14">
+    <div className="bg-[#D9E0EC]   mt-20 pt-16 bg-opacity-20  w-full">
+      <div className="lg:px-[7.5rem] px-4  mb-14">
         <h2 className="font-montserrat  font-bold text-[2.125rem] ">
           Discover more NFTs
         </h2>
@@ -24,7 +24,7 @@ const Discover = () => {
                 <Button
                   key={item.id}
                   text={item.text}
-                  className="bg-[#DCDCDC] bg-opacity-20 mb-4 min-[1133px]:mb-0 "
+                  className="bg-[#DCDCDC]  bg-opacity-20 mb-4 min-[1133px]:mb-0 "
                   px="px-5"
                   py="py-2.5"
                   color="black"
